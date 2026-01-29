@@ -4,11 +4,22 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: Good-Great-Grand-Wonderful
+      url-base: https://github.com/Good-Great-Grand-Wonderful
+    - name: lanyagagaga-droid
+      url-base: https://github.com/lanyagagaga-droid
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: gggw-zmk-keebs
+      remote: lanyagagaga-droid
+      revision: main
+      import: config/west.yml
+    - name: zmk-pmw3610-driver
+      remote: badjeff
+      revision: main
   self:
     path: config

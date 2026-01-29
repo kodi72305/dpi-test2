@@ -152,8 +152,8 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &tb_cyc_dpi  &tb_bootloader  &trans  &trans  &trans  &trans
+&tb_mo_scroll  &trans  &trans  &trans     &trans     &trans     &tbs_mt 0 0  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                         &kp LG(V)  &kp LC(V)  &kp LC(C)  &trans  &trans  &trans
             >;
         };

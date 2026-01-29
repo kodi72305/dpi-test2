@@ -12,5 +12,3 @@ AUDIO_ENABLE = no           # Audio output
 POINTING_DEVICE_ENABLE = yes
 POINTING_DEVICE_DRIVER = adns5050
 MOUSEKEY_ENABLE = no        # Mouse keys
-
-DEFAULT_FOLDER = ploopyco/trackball_nano/rev1_001

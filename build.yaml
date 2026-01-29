@@ -1,5 +1,6 @@
 ---
 # GitHub workflow build matrix; add entries if you need more firmware targets.
 include:
-  - board: crosses
+  - board: nice_nano_v2
+    shield: gggw_crosses_54
     artifact-name: crosses-bt
